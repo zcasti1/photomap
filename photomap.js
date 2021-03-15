@@ -17,7 +17,7 @@ function createPhotoMap () {
   var csvUrl = 'https://docs.google.com/spreadsheets/d/1KOWaSFXDdFWcpzoS7snfHdEGQ9NWS19zP-0KEVLO4DM/gviz/tq?tqx=out:csv&sheet=Sheet1';
   
   // create map object with center lat/lon and zoom level
-  var map = L.map('map').setView([30.445, -91.187], 13);
+  var map = L.map('map').setView([30.44, -91.187], 13);
   
   // create basemap object. See examples at https://leaflet-extras.github.io/leaflet-providers/preview/
   var basemap = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryTopo/MapServer/tile/{z}/{y}/{x}', {
